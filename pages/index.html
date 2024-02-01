@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Login</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="login-container">
+        <h2 class="login-heading">Student Login</h2>
+        <img src="../logo.jpeg" alt="Logo" class="logo" />
+        <form action="#" method="post">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            value="Enter your name "
+            required
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="text"
+            id="password"
+            name="password"
+            value="Enter Password"
+            required
+          />
+
+          <div class="remember-me">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="remember"
+              name="remember"
+            />
+            <label for="remember">Remember me</label>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+
+        <div class="additional-links">
+          <a href="signup.html">Sign Up</a> |
+          <a href="f_p_form.html">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
